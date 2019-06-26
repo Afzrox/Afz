@@ -1,0 +1,3 @@
+class DayofWeek{
+    main
+}
