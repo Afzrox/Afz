@@ -1,0 +1,32 @@
+{
+	"Rice": 
+	[
+		{
+		"Name": "Columb",
+		"Weight": 20,
+		"Price": 80
+		},
+		{
+		"Name": "Basmati",
+		"Weight": 20,
+		"Price": 80
+		}
+	],
+	"Pulses":
+	[
+		{
+		"Name": "Pulses",
+		"Weight": 10,
+		"Price": 40
+		}
+	]
+	, 
+	"Wheat":
+	[
+		{
+		"Name": "Wheat",
+		"Weight": 20,
+		"Price": 45
+		}
+	]
+}

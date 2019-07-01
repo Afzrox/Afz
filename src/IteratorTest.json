@@ -1,0 +1,31 @@
+{
+	"afzal": {
+		"Zip": "400043",
+		"FirstName": "Afzal",
+		"LastName": "Sardar",
+		"City": "Mumbai",
+		"Contact": "1234567890",
+		"Akshay": {
+			"Zip": "400041",
+			"FirstName": "Akshay",
+			"LastName": "Kawde",
+			"City": "Pune",
+			"Contact": "9876543210"
+			}
+		},
+	"Mahesh": {
+		"Zip": "400042",
+		"FirstName": "Mahesh",
+		"LastName": "Thakur",
+		"City": "Pen",
+		"Contact": "9876543210"
+	},
+	"DJ": {
+		"Zip": "800083",
+		"FirstName": "Dj",
+		"LastName": "Jadhav",
+		"City": "Pune",
+		"Contact": "0987654345",
+		"Name": "Dhanupu"
+	}
+}

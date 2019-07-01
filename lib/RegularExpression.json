@@ -2,19 +2,16 @@
 	"Akshay":{
 		"Name":"Akshay",
 		"FullName":"Alshay Kawde Rao",
-		"Phone":"91-1234567890",
-		"Date":"21/01/1997"
+		"Phone":"91-1234567890"
 	},
 	"Afzal":{
 		"Name":"Afzal",
 		"FullName":"Afzal Azad Sadar",
-		"Phone":"91-4564231345",
-		"Date":"21/01/1997"
+		"Phone":"91-4564231345"
 	},
 	"Mahesh":{
 		"Name":"Mahesh",
 		"FullName":"Mahesh Gajanand Maharaj",
-		"Phone":"91-5642313333",
-		"Date":"21/01/1997"
+		"Phone":"91-5642313333"
 	}
 }
