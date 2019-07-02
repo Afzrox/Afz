@@ -22,28 +22,28 @@ public class RegularExpression {
 		scanner.close();
 	}
 	
+	@SuppressWarnings("unchecked")
 	private static void getDetails(String Name) {
 		// TODO Auto-generated method stub
 		RegularExpression Regex=new RegularExpression();
 		try {
 			JSONParser Parser=new JSONParser();
 			JSONObject Data=(JSONObject)Parser.parse(new FileReader("RegularExpression.json"));
-			System.out.println(Data.get(1));
-//			if(Name.equalsIgnoreCase((String)Data.get(Name))) {
-//				JSONObject person=(JSONObject)Data.get(Name);
-//				String FirstName=(String)person.get("Name");
-//				String FullName=(String)person.get("FullName");
-//				String Contact=(String)person.get("Phone");
-//				String Date=(String)person.get("Date");
-//				Regex.replace("<<name>>", FirstName);	//	replace first name
-//				Regex.replace("<<full name>>", FullName);	//	replace last name
-//				Regex.replace("xxxxxxxxxx", Contact);	// replace contact number
-//				Regex.replace("01/01/2016", Date);	//	replace date
-//			}
-//			else {
-//				System.out.println("Not found");
-//			}
-//			
+			
+			Data.keySet().forEach(keyStr ->
+			{
+		        JSONObject keyvalue = (JSONObject) Data.get(keyStr);
+		        if(Name.equalsIgnoreCase((String)keyStr)){
+					String FirstName=(String)keyvalue.get("Name");
+					String FullName=(String)keyvalue.get("FullName");
+					String Contact=(String)keyvalue.get("Phone");
+					String Date=(String)keyvalue.get("Date");
+					Regex.replace("<<name>>", FirstName);	//	replace first name
+					Regex.replace("<<full name>>", FullName);	//	replace last name
+					Regex.replace("xxxxxxxxxx", Contact);	// replace contact number
+					Regex.replace("01/01/2016", Date);	//	replace date
+				}
+		    });
 		}
 		catch(Exception e) {
 			System.out.println(e);

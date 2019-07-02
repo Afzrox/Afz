@@ -4,19 +4,13 @@
 	"Specialization":"Heart",
 	"Availability":"6PM",
 	"PatientList":[{
-			"Name":"Patient1",
-			"ID":"101",
-			"Mobile Number":"0987654321"
+			"ID":"101"
 			},
 			{
-			"Name":"Patient2",
-			"ID":"102",
-			"Mobile Number":"0987654321"
+			"ID":"102"
 			},
 			{
-			"Name":"Patient3",
-			"ID":"103",
-			"Mobile Number":"0987654321"
+			"ID":"103"
 			}]
 	},
 	{"Name":"Dj",
@@ -24,19 +18,13 @@
 	"Specialization":"Mind",
 	"Availability":"10AM",
 	"PatientList":[{
-			"Name":"Patient1",
-			"ID":"201",
-			"Mobile Number":"0987654321"
+			"ID":"201"
 			},
 			{
-			"Name":"Patient2",
-			"ID":"202",
-			"Mobile Number":"0987654321"
+			"ID":"202"
 			},
 			{
-			"Name":"Patient3",
-			"ID":"203",
-			"Mobile Number":"0987654321"
+			"ID":"203"
 			}]
 	}
 	]
