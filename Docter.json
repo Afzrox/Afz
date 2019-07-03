@@ -1,0 +1,19 @@
+{"Docter":[
+		{
+		"Availability":"6PM",
+		"Specialization":"Heart",
+		"PatientList":[{"Id":"101"},{"Id":"102"},{"Id":"103"}],
+		"Id":"100",
+		"Name":"Afzal"
+		}
+		,{
+		"Availability":"10AM",
+		"Specialization":"Mind",
+		"PatientList":[{"Id":"201"},{"Id":"202"}],
+		"Id":"200",
+		"Name":"Dj"
+		}
+		]
+}
+		
+		

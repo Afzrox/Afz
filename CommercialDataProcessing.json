@@ -1,0 +1,15 @@
+{
+    "Company":
+        {
+            "CompanyName":"Google",
+            "Shares":5000,
+            "SharePrice":500
+        },
+    "User":
+    {
+        "Name":"Afzal",
+        "Balance":5000,
+        "Stock":[]
+    }
+
+}
